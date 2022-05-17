@@ -101,15 +101,14 @@ const Dashboard = () => {
                             <div className="container mx-1">
                                 <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                                     <div className="col p-4 d-flex flex-column position-static">
-                                        <strong className="d-inline-block mb-2 text-primary">World</strong>
-                                        <h3 className="mb-0">Featured post</h3>
-                                        <div className="mb-1 text-muted">Nov 12</div>
+                                        <strong className="d-inline-block mb-2 text-primary">Worker</strong>
+                                        <h3 className="mb-0">Register</h3>
+                                        <hr className="featurette-divider" />
                                         <p className="card-text mb-auto">
-                                            This is a wider card with supporting text below as a natural lead-in
-                                            to additional content.
+                                            Register and get opportunities to work in your desired location. 
                                         </p>
-                                        <a href="#" className="stretched-link">
-                                            Continue reading
+                                        <a href="/worker" className="stretched-link">
+                                        Explore More
                                         </a>
                                     </div>
                                     <div className="col-auto d-none d-lg-block">
@@ -122,15 +121,14 @@ const Dashboard = () => {
                             <div className="container mx-1">
                                 <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                                     <div className="col p-4 d-flex flex-column position-static">
-                                        <strong className="d-inline-block mb-2 text-success">Design</strong>
-                                        <h3 className="mb-0">Post title</h3>
-                                        <div className="mb-1 text-muted">Nov 11</div>
+                                        <strong className="d-inline-block mb-2 text-primary">Worker</strong>
+                                        <h3 className="mb-0">Explore</h3>
+                                        <hr className="featurette-divider" />
                                         <p className="mb-auto">
-                                            This is a wider card with supporting text below as a natural lead-in
-                                            to additional content.
+                                            Register and find work in favourable domain and location.
                                         </p>
-                                        <a href="#" className="stretched-link">
-                                            Continue reading
+                                        <a href="/worker" className="stretched-link">
+                                        Explore More
                                         </a>
                                     </div>
                                     <div className="col-auto d-none d-lg-block">
@@ -143,15 +141,14 @@ const Dashboard = () => {
                             <div className="container mx-1">
                                 <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                                     <div className="col p-4 d-flex flex-column position-static">
-                                        <strong className="d-inline-block mb-2 text-success">Design</strong>
-                                        <h3 className="mb-0">Post title</h3>
-                                        <div className="mb-1 text-muted">Nov 11</div>
+                                        <strong className="d-inline-block mb-2 text-success">Company</strong>
+                                        <h3 className="mb-0">Register</h3>
+                                        <hr className="featurette-divider" />
                                         <p className="mb-auto">
-                                            This is a wider card with supporting text below as a natural lead-in
-                                            to additional content.
+                                        Register and get hire local workers from your work site.
                                         </p>
-                                        <a href="#" className="stretched-link">
-                                            Continue reading
+                                        <a href="/company" className="stretched-link">
+                                        Explore More
                                         </a>
                                     </div>
                                     <div className="col-auto d-none d-lg-block">
@@ -164,15 +161,14 @@ const Dashboard = () => {
                             <div className="container mx-1">
                                 <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                                     <div className="col p-4 d-flex flex-column position-static">
-                                        <strong className="d-inline-block mb-2 text-success">Design</strong>
-                                        <h3 className="mb-0">Post title</h3>
-                                        <div className="mb-1 text-muted">Nov 11</div>
+                                        <strong className="d-inline-block mb-2 text-success">Company</strong>
+                                        <h3 className="mb-0">Explore</h3>
+                                        <hr className="featurette-divider" />
                                         <p className="mb-auto">
-                                            This is a wider card with supporting text below as a natural lead-in
-                                            to additional content.
+                                        Register and find workers in favourable domain and location.
                                         </p>
-                                        <a href="#" className="stretched-link">
-                                            Continue reading
+                                        <a href="/company" className="stretched-link">
+                                             Explore More
                                         </a>
                                     </div>
                                     <div className="col-auto d-none d-lg-block">

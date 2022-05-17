@@ -9,13 +9,19 @@ export const About = () => {
                 <div className="row featurette">
                     <div className="col-md-7">
                         <h2 className="featurette-heading fw-normal lh-1">
-                            First featurette heading.{" "}
-                            <span className="text-muted">It’ll blow your mind.</span>
+                            Hire Best Rated Worker.{" "}
+
                         </h2>
-                        <p className="lead">
-                            Some great placeholder content for the first featurette here. Imagine some
-                            exciting prose here.
+                        <hr className="featurette-divider" />
+                        <br />
+                        <br />
+                        <p className="lead ">
+                            This website will meet all type of yours worker requirements.It will helps you to hire best of best workers with highest ratings. You can hire workers from your work site and reduce your tasportation cost and you can promote local workers.
+                            <br />
+                            <br />
+                            Get Workers Online, Remove Contractors
                         </p>
+
                     </div>
                     <div className="col-md-5">
                         <img class="bd-placeholder-img" width="400" height="350" src="https://source.unsplash.com/300x100/?company,worker" alt="..." />{" "}
@@ -26,14 +32,23 @@ export const About = () => {
                 <div className="row featurette my-4">
                     <div className="col-md-7 order-md-2">
                         <h2 className="featurette-heading fw-normal lh-1">
-                            Oh yeah, it’s that good.{" "}
-                            <span className="text-muted">See for yourself.</span>
+                            Work in your favourable location.{" "}
+
                         </h2>
+                        <hr className="featurette-divider" />
+                        <br />
+                        <br />
                         <p className="lead">
-                            Another featurette? Of course. More placeholder content here to give you
-                            an idea of how this layout would work with some actual real-world content
-                            in place.
+                            Oh yeah,You can get work in your favourable location to work.
+                            This website will provide you opportunities to get hired by top rated employers without interaction with the middle-man
+                            that means you will be paid without the detuction of commision by contractor.
+                            <br />
+                            <br />
+                            Remove Contractor, Earn More
                         </p>
+
+
+
                     </div>
                     <div className="col-md-5 order-md-1">
                         <img class="bd-placeholder-img" width="400" height="350" src="https://source.unsplash.com/300x100/?company,worker" alt="..." />{" "}
@@ -45,13 +60,14 @@ export const About = () => {
                 <div className="row featurette my-4">
                     <div className="col-md-7">
                         <h2 className="featurette-heading fw-normal lh-1">
-                            And lastly, this one. <span className="text-muted">Checkmate.</span>
+                            And lastly,
                         </h2>
+                        <hr className="featurette-divider" />
                         <p className="lead">
-                            And yes, this is the last block of representative placeholder content.
-                            Again, not really intended to be actually read, simply here to give you a
-                            better view of what this would look like with some actual content. Your
-                            content.
+                            If you have any problem with website or you want any help regarding this website feel free to contact us. we be very gratefull to help you to solve your problem and provide appropiate solution as soon as possible.
+                            <br/>
+                            <br/>
+                            For feedback fill the form below.
                         </p>
                     </div>
                     <div className="col-md-5">
@@ -103,7 +119,7 @@ export const About = () => {
                             className="form-control"
                             id="exampleFormControlTextarea1"
                             rows={3}
-                            defaultValue={""}
+                            defaultValue={"..."}
                         />
                     </div>
                     <div className="col-12">
@@ -114,6 +130,41 @@ export const About = () => {
                 </form>
 
             </div>
+            <div className="container">
+  <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div className="col-md-4 d-flex align-items-center">
+      <a
+        href="/"
+        className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+      >
+        <svg className="bi" width={30} height={24}>
+          <use xlinkHref="#bootstrap" />
+        </svg>
+      </a>
+      <span className="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+    </div>
+    <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li className="ms-3">
+      <a className="text-muted" href="https://twitter.com">
+          <img class="bd-placeholder-img" width="24" height="24" src="bx bxl-twitter"/>
+        </a>
+      </li>
+      <li className="ms-3">
+      <a className="text-muted" href="https://instagram.com">
+          <img class="bd-placeholder-img" width="24" height="24" src="bx bxl-instagram"/>
+        </a>
+      </li>
+      <li className="ms-3">
+        <a className="text-muted" href="https://facebook.com">
+          <img class="bd-placeholder-img" width="24" height="24" src="bx bxl-facebook"/>
+          
+          
+        </a>
+      </li>
+    </ul>
+  </footer>
+</div>
+
 
 
 

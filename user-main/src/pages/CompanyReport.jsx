@@ -8,10 +8,10 @@ import { Link } from 'react-router-dom'
 const chartOptions = {
   series: [{
     name: 'Request Send',
-    data: [0, 0, 0, 3, 3, 8, 3, 9, 0, 0, 8, 13]
+    data: [0, 3, 7, 0, 4, 6, 4, 2, 5, 10, 8, 11]
   }, {
     name: 'Request Recieved',
-    data: [0, 3, 7, 0, 4, 6, 4, 2, 5, 10, 8, 11]
+    data: [0, 0, 0, 3, 3, 8, 3, 9, 0, 0, 8, 13]
   }],
   options: {
     color: ['#6ab04c', '#2980b9'],
@@ -39,38 +39,38 @@ const chartOptions = {
 const topUsers = {
   head: [
     'Serial',
-    'Company Name',
+    'Worker Name',
     'Contact',
     'Date'
   ],
   body: [
     {
       "serial": "1",
-      "companyname": "Stuti pvt. ltd",
+      "workername": "Aman Shukla",
       "contact": "8299123456",
       "date": "22-03-2022"
     },
     {
       "serial": "2",
-      "companyname": "Azaan Bakers",
+      "workername": "Azaan Abdul",
       "contact": "4323175643",
       "date": "11-02-2022"
     },
     {
       "serial": "3",
-      "companyname": "Pritam Transport",
+      "workername": "Pritam Singh",
       "contact": "8753124675",
       "date": "02-02-2022"
     },
     {
       "serial": "4",
-      "companyname": "Priya Electrics",
+      "workername": "Akash Verma",
       "contact": "4509777213",
       "date": "10-09-2021"
     },
     {
       "serial": "5",
-      "companyname": "Sahara Complex",
+      "workername": "Santosh Gupta",
       "contact": "1209453250",
       "date": "02-06-2019"
     }
@@ -84,15 +84,14 @@ const renderUserHead = (item, index) => (
 const renderUserBody = (item, index) => (
   <tr key={index}>
     <td>{item.serial}</td>
-    <td>{item.companyname}</td>
+    <td>{item.workername}</td>
     <td>{item.contact}</td>
     <td>{item.date}</td>
   </tr>
 )
 
 
-
-export const WorkerReport = () => {
+export const CompanyReport = () => {
   const themeReducer = useSelector(state => state.ThemeReducer.mode)
   return (
     <div>
@@ -119,7 +118,7 @@ export const WorkerReport = () => {
       <div className="col-10">
         <div className="card">
           <div className="card__header">
-            <h3>Previous Work Places</h3>
+            <h3>Previous Worker hired</h3>
           </div>
           <div className="card__body">
             <Table

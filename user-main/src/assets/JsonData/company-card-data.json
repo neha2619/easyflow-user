@@ -2,27 +2,32 @@
     {
         "icon": "bx bx-user-pin",
         
-        "title": "Update Profile"
+        "title": "Update Profile",
+        "route": "/updatecompanyprofile"
     },
     {
         "icon": "bx bx-check-shield",
         
-        "title": "Update Password"
+        "title": "Update Password",
+        "route": "/updatecompanypassword"
     },
     {
         "icon": "bx bxs-plane-take-off",
         
-        "title": "Send Requests"
+        "title": "Send Requests",
+        "route": "/Companysendrequest"
     },
     {
         "icon": "bx bxs-plane-land",
         
-        "title": "View Requests"
+        "title": "View Requests",
+        "route": "/registrationlogin"
     },
     {
         "icon": "bx bx-receipt",
         
-        "title": "View Report"
+        "title": "View Report",
+        "route": "/companyreport"
     },
     {
         "icon": "bx bx-log-out",

@@ -19,9 +19,6 @@ export const Company = () => {
                                             icon={item.icon}
                                             count={item.count}
                                             title={item.title}
-
-
-
                                         />
                                     </Link>
                                 </div>
@@ -31,12 +28,16 @@ export const Company = () => {
                 </div>
                 <div className="col-6">
                     <div className="card">
-                        <div className="card-header">Quote</div>
+                        <div className="card-header"><h4>Quote</h4></div>
                         <div className="card-body">
                             <blockquote className="blockquote mb-0">
-                                <p>A well-known quote, contained hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhin a blockquote element.</p>
+                                <p>“I owe my success to having listened respectfully to the very best advice, and then going away and doing the exact opposite.”
+                                    <br />
+                                    <br />
+                                    <br/>
+                                </p>
                                 <footer className="blockquote-footer">
-                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                    G.K. Chesterton <cite title="Source Title">writer, paradoxical stories</cite>
                                 </footer>
                             </blockquote>
                         </div>

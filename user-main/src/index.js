@@ -19,7 +19,7 @@ const store = createStore(
   rootReducer
 )
 
-document.title = 'EastFlow'
+document.title = 'EasyFlow'
 
 ReactDOM.render(
   <Provider store={store}>
