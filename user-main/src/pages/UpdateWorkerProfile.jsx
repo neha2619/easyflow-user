@@ -9,16 +9,16 @@ export const UpdateWorkerProfile = () => {
       <div className="container">
         <form className="row g-3">
           <div className="col-md-6">
-            <label htmlFor="inputEmail4" className="form-label">
+            <label htmlFor="validationCustom01" className="form-label">
               Name
             </label>
-            <input type="email" className="form-control" id="inputEmail4" />
+            <input type="text" className="form-control" id="validationCustom01" required="" />
           </div>
           <div className="col-md-6">
-            <label htmlFor="inputPassword4" className="form-label">
+            <label htmlFor="inputEmail4" className="form-label">
               Email
             </label>
-            <input type="password" className="form-control" id="inputPassword4" />
+            <input type="email" className="form-control" id="inputEmail4" required=""/>
           </div>
 
           <div className="col-md-4">
