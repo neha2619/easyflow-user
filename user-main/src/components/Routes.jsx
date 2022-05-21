@@ -20,6 +20,8 @@ import { UpdateCompanyPassword } from '../pages/UpdateCompanyPassword'
 import { UpdateCompanyPass } from '../pages/UpdateCompanyPass'
 import { CompanyReport } from '../pages/CompanyReport'
 import { CompanySendRequest } from '../pages/CompanySendRequest'
+import { Login } from '../pages/Login'
+
 
 
 const Routes = () => {
@@ -34,6 +36,9 @@ const Routes = () => {
             <Route path='/updateworkerpass' component={UpdateWorkerPass}/>
             <Route path='/workerreport' component={WorkerReport}/>
             <Route path='/workersendrequest' component={WorkerSendRequest}/>
+            <Route path='/login' component={Login}/>
+            
+
 
 
             <Route path='/updatecompanyprofile' component={UpdateCompanyProfile}/>

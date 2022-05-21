@@ -6,7 +6,7 @@
     },
     {
         "display_name": "Worker",
-        "route": "/worker",
+        "route": "/login",
         "icon": "bx bx-user-pin"
     },
     {
