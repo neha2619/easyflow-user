@@ -105,10 +105,10 @@ const Dashboard = () => {
                                         <h3 className="mb-0">Register</h3>
                                         <hr className="featurette-divider" />
                                         <p className="card-text mb-auto">
-                                            Register and get opportunities to work in your desired location. 
+                                            Register and get opportunities to work in your desired location.
                                         </p>
                                         <a href="/worker" className="stretched-link">
-                                        Explore More
+                                            Explore More
                                         </a>
                                     </div>
                                     <div className="col-auto d-none d-lg-block">
@@ -128,7 +128,7 @@ const Dashboard = () => {
                                             Register and find work in favourable domain and location.
                                         </p>
                                         <a href="/worker" className="stretched-link">
-                                        Explore More
+                                            Explore More
                                         </a>
                                     </div>
                                     <div className="col-auto d-none d-lg-block">
@@ -145,10 +145,10 @@ const Dashboard = () => {
                                         <h3 className="mb-0">Register</h3>
                                         <hr className="featurette-divider" />
                                         <p className="mb-auto">
-                                        Register and get hire local workers from your work site.
+                                            Register and get hire local workers from your work site.
                                         </p>
                                         <a href="/company" className="stretched-link">
-                                        Explore More
+                                            Explore More
                                         </a>
                                     </div>
                                     <div className="col-auto d-none d-lg-block">
@@ -165,10 +165,10 @@ const Dashboard = () => {
                                         <h3 className="mb-0">Explore</h3>
                                         <hr className="featurette-divider" />
                                         <p className="mb-auto">
-                                        Register and find workers in favourable domain and location.
+                                            Register and find workers in favourable domain and location.
                                         </p>
                                         <a href="/company" className="stretched-link">
-                                             Explore More
+                                            Explore More
                                         </a>
                                     </div>
                                     <div className="col-auto d-none d-lg-block">
