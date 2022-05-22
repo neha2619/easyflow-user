@@ -95,7 +95,7 @@ export const CompanyReport = () => {
   const themeReducer = useSelector(state => state.ThemeReducer.mode)
   return (
     <div>
-      <h2 className="page-header">Worker</h2>
+      <h2 className="page-header">Company</h2>
       <hr className="featurette-divider" />
 
       <div className="col-12">

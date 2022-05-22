@@ -16,7 +16,7 @@ import user_menu from '../../assets/JsonData/user_menus.json'
 
 const curr_user = {
     display_name: 'Neha Chaurasia',
-    image: user_image
+    image: "user_image"
 }
 
 const renderNotificationItem = (item, index) => (
@@ -54,14 +54,7 @@ const Topnav = () => {
                 <i className='bx bx-search'></i>
             </div>
             <div className="topnav__right">
-                <div className="topnav__right-item">
-                    {/* dropdown here */}
-                    <Dropdown
-                        customToggle={() => renderUserToggle(curr_user)}
-                        contentData={user_menu}
-                        renderItems={(item, index) => renderUserMenu(item, index)}
-                    />
-                </div>
+                
                 <div className="topnav__right-item">
                     <Dropdown
                         icon='bx bx-bell'

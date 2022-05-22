@@ -12,13 +12,13 @@ export const UpdateWorkerPass = () => {
                         <label htmlFor="inputEmail4" className="form-label">
                             Password
                         </label>
-                        <input type="email" className="form-control" id="inputEmail4" />
+                        <input type="password" className="form-control" id="inputEmail4" />
                     </div>
                     <div className="col-6">
                         <label htmlFor="inputEmail4" className="form-label">
                             Confirm Password
                         </label>
-                        <input type="email" className="form-control" id="inputEmail4" />
+                        <input type="password" className="form-control" id="inputEmail4" />
                     </div>
                     <div className="col-12">
 

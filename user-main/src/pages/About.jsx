@@ -51,7 +51,7 @@ export const About = () => {
 
                     </div>
                     <div className="col-md-5 order-md-1">
-                        <img class="bd-placeholder-img" width="400" height="350" src="https://source.unsplash.com/300x100/?company,worker" alt="..." />{" "}
+                        <img class="bd-placeholder-img" width="400" height="350" src="https://source.unsplash.com/300x100/?company" alt="..." />{" "}
 
                     </div>
 
@@ -71,7 +71,7 @@ export const About = () => {
                         </p>
                     </div>
                     <div className="col-md-5">
-                        <img class="bd-placeholder-img" width="400" height="350" src="https://source.unsplash.com/300x100/?company,worker" alt="..." />{" "}
+                        <img class="bd-placeholder-img" width="400" height="350" src="https://source.unsplash.com/300x100/?smile" alt="..." />{" "}
 
                     </div>
                 </div>
@@ -90,16 +90,16 @@ export const About = () => {
                         <input type="email" className="form-control" id="inputEmail4" />
                     </div>
                     <div className="col-md-6">
-                        <label htmlFor="inputPassword4" className="form-label">
+                        <label htmlFor="inputEmail4" className="form-label">
                             Email
                         </label>
-                        <input type="password" className="form-control" id="inputPassword4" />
+                        <input type="email" className="form-control" id="inputPassword4" />
                     </div>
                     <div className="col-md-6">
-                        <label htmlFor="inputPassword4" className="form-label">
+                        <label htmlFor="inputEmail4" className="form-label">
                             Contact
                         </label>
-                        <input type="password" className="form-control" id="inputPassword4" />
+                        <input type="email" className="form-control" id="inputPassword4" />
                     </div>
                     <div className="col-md-6">
                         <label htmlFor="inputState" className="form-label">

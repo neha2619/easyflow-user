@@ -132,7 +132,7 @@ const Dashboard = () => {
                                         </a>
                                     </div>
                                     <div className="col-auto d-none d-lg-block">
-                                        <img class="bd-placeholder-img" width="250" height="250" src="https://source.unsplash.com/300x100/?company,worker" alt="..." />{" "}
+                                        <img class="bd-placeholder-img" width="250" height="250" src="https://source.unsplash.com/300x100/?painter,worker" alt="..." />{" "}
                                     </div>
                                 </div>
                             </div>
@@ -146,13 +146,14 @@ const Dashboard = () => {
                                         <hr className="featurette-divider" />
                                         <p className="mb-auto">
                                             Register and get hire local workers from your work site.
+                                        
                                         </p>
                                         <a href="/company" className="stretched-link">
                                             Explore More
                                         </a>
                                     </div>
                                     <div className="col-auto d-none d-lg-block">
-                                        <img class="bd-placeholder-img" width="250" height="250" src="https://source.unsplash.com/300x100/?company,worker" alt="..." />{" "}
+                                        <img class="bd-placeholder-img" width="250" height="250" src="https://source.unsplash.com/300x100/?maison,worker" alt="..." />{" "}
                                     </div>
                                 </div>
                             </div>
@@ -172,7 +173,7 @@ const Dashboard = () => {
                                         </a>
                                     </div>
                                     <div className="col-auto d-none d-lg-block">
-                                        <img class="bd-placeholder-img" width="250" height="250" src="https://source.unsplash.com/300x100/?company,worker" alt="..." />{" "}
+                                        <img class="bd-placeholder-img" width="250" height="250" src="https://source.unsplash.com/300x100/?plumber,poor" alt="..." />{" "}
                                     </div>
                                 </div>
                             </div>

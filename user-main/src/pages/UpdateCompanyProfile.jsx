@@ -23,13 +23,13 @@ export const UpdateCompanyProfile = () => {
 
           <div className="col-md-4">
             <label htmlFor="inputCity" className="form-label">
-              Mobile
+              GSTIN
             </label>
             <input type="text" className="form-control" id="inputCity" />
           </div>
           <div className="col-md-4">
             <label htmlFor="inputZip" className="form-label">
-              Aadhaar
+              CIN
             </label>
             <input type="text" className="form-control" id="inputZip" />
           </div>

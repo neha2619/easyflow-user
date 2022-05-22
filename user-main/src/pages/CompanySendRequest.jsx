@@ -15,10 +15,10 @@ export const CompanySendRequest = () => {
             <input type="email" className="form-control" id="inputEmail4" />
           </div>
           <div className="col-md-6">
-            <label htmlFor="inputPassword4" className="form-label">
-              Mobile
+            <label htmlFor="inputEmail4" className="form-label">
+              Vacany
             </label>
-            <input type="password" className="form-control" id="inputPassword4" />
+            <input type="email" className="form-control" id="inputPassword4" />
           </div>
           <div className="col-md-6">
             <label htmlFor="inputEmail4" className="form-label">
